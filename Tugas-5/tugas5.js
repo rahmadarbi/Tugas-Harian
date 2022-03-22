@@ -33,13 +33,12 @@ console.log(perkenalan) // Menampilkan "Nama saya John, umur saya 30 tahun, alam
 //soal4
 console.log("Soal 4");
 var arrayDaftarPeserta = ["Asep", "laki-laki", "baca buku" , 1992];
-var listarr=Object.assign({},arrayDaftarPeserta); // {0:"a", 1:"b", 2:"c"}
 
 var result=({
-  nama:listarr[0],
-  jenis_kelamin:listarr[1],
-  hobi:listarr[2],
-  tahun_lahir:listarr[3]
+  nama:arrayDaftarPeserta[0],
+  jenis_kelamin:arrayDaftarPeserta[1],
+  hobi:arrayDaftarPeserta[2],
+  tahun_lahir:arrayDaftarPeserta[3]
 })
 
 console.log(result);
