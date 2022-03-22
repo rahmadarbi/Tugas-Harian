@@ -46,28 +46,29 @@ console.log(result);
 //soal5
 console.log("soal 5");
 var datalist=[{
-        "nama": "strawberry",
-        "warna": "merah",
-        "ada_bijinya": "tidak",
-        "harga": 9000
-    }, {
+    "nama": "strawberry",
+    "warna": "merah",
+    "ada bijinya": "tidak",
+    "harga": 9000
+}, {
 
-        "nama": "jeruk",
-        "warna": "oranye",
-        "ada_bijinya": "ada",
-        "harga": 8000
-    },
-    {
-        "nama": "Semangka",
-        "warna": "Hijau & Merah",
-        "ada_bijinya": "ada",
-        "harga": 10000
+    "nama": "jeruk",
+    "warna": "oranye",
+    "ada bijinya": "ada",
+    "harga": 8000
+},
+{
+    "nama": "Semangka",
+    "warna": "Hijau & Merah",
+    "ada bijinya": "ada",
+    "harga": 10000
 
-    },
-    {
-        "nama": "Pisang",
-        "warna": "Kuning",
-        "ada_bijinya": "tidak",
-        "harga": 5000
-    }];
+},
+{
+    "nama": "Pisang",
+    "warna": "Kuning",
+    "ada bijinya": "tidak",
+    "harga": 5000
+}
+];
 console.log(datalist[0]);
